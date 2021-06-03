@@ -37,7 +37,7 @@ void gmain() {
 		text((let)"satu=" + satu, 600, 600);
 		text((let)"value=" + value, 600, 800);
 
-		int num = 12;
+		int num = 1000;
 		float angle = hue / num;
 		for (int i = 0; i < num; i++) {
 			float px = cos(angle*i) * 200;
